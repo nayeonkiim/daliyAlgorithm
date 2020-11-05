@@ -1,2 +1,3 @@
 # daliyAlgorithm
-ë§¤ì¼ ê¾¸ì¤€ížˆ ë¬¸ì œ í’€ê¸°
+¸ÅÀÏ ²ÙÁØÈ÷ ¹®Á¦ Ç®±â
+- ~_Re : ´Ù½Ã Ç®¾îº¼ ¹®Á¦
