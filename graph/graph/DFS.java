@@ -157,22 +157,30 @@ class DfsGraph3{
 	}
 	
 	public void dfs(int vIdx) {
+		boolean flag = false;
+		
 		stack.push(vIdx);
+		visitArr[vIdx] = true;
+		System.out.print(vIdx + " ");
 		
 		while(!stack.isEmpty()) {
-			int v = stack.pop();
-			if(visitArr[v] == false) {
-				visitArr[v] = true;
-				System.out.print(v+" ");
+			int v = stack.peek();
+			
+			flag = false;
+			
+			for(int i = 1; i <= dfsGraph[v].length-1; i++) {
 				
-				for(int i = dfsGraph[v].length-1;i>0;i--) {
-					if(dfsGraph[v][i] == 1) {
-						if(visitArr[i] == false) {
-							stack.push(i);
-						}
-					}
+				if(dfsGraph[v][i] == 1 && !visitArr[i]) {
+					stack.push(i);
+					
+					System.out.print(i + " ");
+					visitArr[i] = true;
+					flag = true;
+					break;
 				}
 			}
+			if(!flag)
+				stack.pop();
 		}
 	}
 }
