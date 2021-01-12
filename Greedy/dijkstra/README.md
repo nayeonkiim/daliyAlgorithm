@@ -52,7 +52,7 @@ class Node implements Comparable<Node> {
     - 4->5 - 가중치 : 1
     - 5->3 - 가중치 : 1
     - 5->6 - 가중치 : 1 <br/><br/>
-    <img src="/img/dijkstra.png" width="700px" height="300px" title="table1" alt="insert쿼리"></img><br/>
+    <img src="https://github.com/nayeonkiim/daliyAlgorithm/blob/main/Greedy/dijkstra/dijkstra.png?raw=true" width="700px" height="300px" title="table1" alt="insert쿼리"></img><br/>
 
 - 최단 거리 테이블의 값이 모두 무한으로 초기화 되어 있고 시작점만 0으로 설정한다.
 - 1->2 의 가중치 2가 무한보다 작으므로 최단 거리 테이블에서 2의 값을 무한에서 2로 변경한다.
