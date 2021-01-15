@@ -87,6 +87,7 @@ public static void dijkstra(int start) {
     }
 }
 ```
+- [전체코드](https://github.com/ndb796/python-for-coding-test/blob/master/9/2.java)
 
 - 참고
     - [이것이 코딩테스트다](https://www.youtube.com/watch?v=F-tkqjUiik0&list=PLVsNizTWUw7H9_of5YCB0FmsSc-K44y81&index=30)
