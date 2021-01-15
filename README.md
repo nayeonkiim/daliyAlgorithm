@@ -1,3 +1,10 @@
 # daliyAlgorithm
-¸ÅÀÏ ²ÙÁØÈ÷ ¹®Á¦ Ç®±â
-- ~_Re : ´Ù½Ã Ç®¾îº¼ ¹®Á¦
+ë§¤ì¼ ê¾¸ì¤€íˆ ë¬¸ì œ í’€ê¸°
+- ~_Re : ë‹¤ì‹œ í’€ì–´ë³¼ ë¬¸ì œ
+
+## ì´ë¡ ì •ë¦¬
+- [ê·¸ë˜í”„ ì´ë¡ ](https://github.com/nayeonkiim/daliyAlgorithm/tree/main/graph/graph)
+  - DFS/BFS
+  - UnionFind
+  - Kruskal
+- [ë‹¤ìµìŠ¤íŠ¸ë¼](https://github.com/nayeonkiim/daliyAlgorithm/tree/main/Greedy/dijkstra)
