@@ -19,6 +19,7 @@
         - 1) A의 루트노드 AA와 B의 루트노드 BB 를 각각 찾는다.
         - 2) AA를 BB의 부모 노드로 설정한다.
     2. 모든 합집합 연산 처리할 때까지 1번의 과정 반복
+- [전체코드](https://github.com/nayeonkiim/daliyAlgorithm/blob/main/graph/graph/UnionFind.java)
 
 ### 서로소 집합을 활용한 사이클 판별
 - [서로소 집합을 활용한 사이클 판별](https://www.youtube.com/watch?v=Mw8W56qNL8U&list=PLVsNizTWUw7H9_of5YCB0FmsSc-K44y81&index=34)
@@ -49,6 +50,7 @@
     - 간선의 개수가 E개일 때, **O(ElogE)** 의 시간복잡도 갖는다.
     - 간선의 정렬을 수행하는 부분이 가장 많은 시간이 소요된다.
         - 표준 라이브러리 이용해 E개의 데이터 정렬하기 위한 시간 복잡도는 O(ElogE)
+- [전체코드](https://github.com/nayeonkiim/daliyAlgorithm/blob/main/graph/graph/Kruskal.java)
 
 ### 위상 정렬
 - [위상정렬](4https://www.youtube.com/watch?v=xeSz3pROPS8&list=PLVsNizTWUw7H9_of5YCB0FmsSc-K44y81&index=36) 
@@ -68,6 +70,7 @@
     - 모든 원소를 방문하기 전에 큐가 빈다면 사이클이 존재한다고 판단할 수 있다.
 - 성능 분석
     - 시간복잡도는 O(V+E)
+- [전체코드](https://github.com/ndb796/python-for-coding-test/blob/master/10/6.java)
 
 -참고
     - [이것이 취업을 위한 코딩 테스트다 with 파이썬 유튜브 강의](https://www.youtube.com/watch?v=Mf0pYO8VAZk&list=PLVsNizTWUw7H9_of5YCB0FmsSc-K44y81&index=1)
