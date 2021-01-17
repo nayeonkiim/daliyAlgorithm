@@ -8,4 +8,4 @@
   - UnionFind
   - Kruskal
 - [다익스트라](https://github.com/nayeonkiim/daliyAlgorithm/tree/main/Greedy/dijkstra)
-- [플로이드워셜](https://github.com/nayeonkiim/daliyAlgorithm/blob/main/DP/FloydWarshall/Floyd.md)
+- [플로이드워셜](https://github.com/nayeonkiim/daliyAlgorithm/tree/main/DP/FloydWarshall)
